@@ -3,3 +3,35 @@
     padding: 0;
     margin: 0;
 }
+
+.container {
+    overflow: hidden;
+}
+
+#top-navbar a {
+    float: left;
+    color: #252424;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Roboto, "Helvetica Neue",;
+    border-bottom: 2p solid transparent;
+}
+
+.container navbar {
+    float: left;
+}
+
+#top-navbar a:hover {
+    color: rgb(8, 212, 202);
+    border-bottom: 5px solid rgb(212, 100, 8);
+}
+
+#mainImage {
+    float: right;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%;
+}
