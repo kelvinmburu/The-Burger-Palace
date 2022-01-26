@@ -9,6 +9,10 @@ body {
     margin: 0 auto
 }
 
+.bodySection {
+    display: flex;
+}
+
 .container {
     overflow: hidden;
     padding: 30px;
@@ -35,6 +39,7 @@ body {
 
 
 #main .mainImage {
+    display: flex;
     float: right;
     position: relative;
     display: block;
